@@ -38,7 +38,7 @@ function Home() {
                 <strong>Unleash your creativity</strong>
                 and design your own unique and awesome shirt with our brand-new 3D tool
               </p>
-
+              <CustomButton />
             </motion.div>
           </motion.div>
         </motion.section>
