@@ -1,7 +1,10 @@
 import React from 'react'
 import {motion, AnimatePresence} from 'framer-motion'
 import {useSnapshot} from 'valtio'
+
 import state from '../store'
+import { CustomButton } from '../components'
+
 import {
   headContainerAnimation,
   headContentAnimation,
@@ -35,7 +38,7 @@ function Home() {
                 <strong>Unleash your creativity</strong>
                 and design your own unique and awesome shirt with our brand-new 3D tool
               </p>
-              
+
             </motion.div>
           </motion.div>
         </motion.section>
