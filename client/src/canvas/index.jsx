@@ -1,9 +1,9 @@
 import React from 'react'
 
-function index() {
+function Canvas() {
   return (
-    <div>index</div>
+    <div>Canvas</div>
   )
 }
 
-export default index
+export default Canvas
