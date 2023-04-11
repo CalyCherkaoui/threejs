@@ -38,7 +38,12 @@ function Home() {
                 <strong>Unleash your creativity</strong>
                 and design your own unique and awesome shirt with our brand-new 3D tool
               </p>
-              <CustomButton />
+              <CustomButton
+                type='filled'
+                title='Customize'
+                handleClick={() => state.intro = false}
+                customStyles='w-fit px-4 py-2.5 font-bold text-sm'
+              />
             </motion.div>
           </motion.div>
         </motion.section>
