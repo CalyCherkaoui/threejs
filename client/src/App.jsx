@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="head-text">Meta show store</div>
+    <div className="head-text">Threejs</div>
   )
 }
 
