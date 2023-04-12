@@ -33,6 +33,7 @@ function Customizer() {
         return <FilePicker
           file={file}
           setFile={setFile}
+          readFile={readFile}
         />
       default:
         return null;
